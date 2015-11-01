@@ -1,0 +1,496 @@
+C:/singlecycle/adder_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/adder_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_demo
+-- Compiling architecture structural_adderDemo of adder_demo
+
+} {} {}} C:/singlecycle/work/dffr_a.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/dffr_a.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
+
+} {} {}} C:/singlecycle/work/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/mux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} C:/singlecycle/test/mux_n_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/test/mux_n_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_n_test
+-- Compiling architecture behavioral of mux_n_test
+
+} {} {}} C:/singlecycle/reg_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/reg_file.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity file_unit
+-- Compiling architecture structural_regFileUnit of file_unit
+-- Compiling entity reg_file
+-- Compiling architecture structural_regFile of reg_file
+
+} {} {}} C:/singlecycle/test/sram_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/test/sram_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity sram_demo
+-- Compiling architecture structural of sram_demo
+
+} {} {}} C:/singlecycle/work/eecs361_gates.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/eecs361_gates.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
+
+} {} {}} C:/singlecycle/work/and_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/and_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} C:/singlecycle/prog_cnt.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/prog_cnt.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity prog_cnt
+-- Compiling architecture structural_PC of prog_cnt
+
+} {} {}} C:/singlecycle/work/eecs361.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/eecs361.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
+
+} {} {}} C:/singlecycle/and_6to1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/and_6to1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity and_6to1
+-- Compiling architecture structure of and_6to1
+
+} {} {}} C:/singlecycle/work/and_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/and_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} C:/singlecycle/alu_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/alu_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_demo
+-- Compiling architecture structural_aluDemo of alu_demo
+
+} {} {}} C:/singlecycle/work/or_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/or_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} C:/singlecycle/work/xnor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/xnor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} C:/singlecycle/alu_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/alu_unit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity fulladder
+-- Compiling architecture structural_FA of fulladder
+-- Loading package eecs361
+-- Compiling entity alu_unit
+-- Compiling architecture structural_ALUunit of alu_unit
+
+} {} {}} C:/singlecycle/work/and_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/and_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_n
+-- Compiling architecture dataflow of and_gate_n
+
+} {} {}} C:/singlecycle/work/dff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/dff.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behavioral of dff
+
+} {} {}} C:/singlecycle/work/xnor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/xnor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
+
+} {} {}} C:/singlecycle/work/syncram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/syncram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity syncram
+-- Compiling architecture behavioral of syncram
+
+} {} {}} C:/singlecycle/work/nand_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/nand_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
+
+} {} {}} C:/singlecycle/work/not_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/not_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
+
+} {} {}} C:/singlecycle/work/xor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/xor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} C:/singlecycle/work/dec_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/dec_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} C:/singlecycle/alu_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/alu_ctrl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity alu_ctrl
+-- Compiling architecture structure of alu_ctrl
+
+} {} {}} C:/singlecycle/extender.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/extender.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sign_extender
+-- Compiling architecture structural_ext of sign_extender
+
+} {} {}} C:/singlecycle/work/nor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/nor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} C:/singlecycle/work/nor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/nor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} C:/singlecycle/work/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/xor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} C:/singlecycle/work/mux_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/mux_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
+} {} {}} C:/singlecycle/singlecycle.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/singlecycle.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity singlecycle
+-- Compiling architecture structural of singlecycle
+
+} {} {}} C:/singlecycle/work/or_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/or_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} C:/singlecycle/ctrl_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/ctrl_unit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity ctrl_unit
+-- Compiling architecture structure of ctrl_unit
+
+} {} {}} C:/singlecycle/work/xnor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/xnor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} C:/singlecycle/work/sram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/sram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} C:/singlecycle/prog_cnt_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/prog_cnt_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity prog_cnt_demo
+-- Compiling architecture structural_PCDemo of prog_cnt_demo
+
+} {} {}} C:/singlecycle/test/dffr_a_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/test/dffr_a_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity dffr_a_test
+-- Compiling architecture behavioral of dffr_a_test
+
+} {} {}} C:/singlecycle/and_6to1_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/and_6to1_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_6to1_demo
+-- Compiling architecture structural_andDemo of and_6to1_demo
+
+} {} {}} C:/singlecycle/test/sram_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/test/sram_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity sram_test
+-- Compiling architecture behavioral of sram_test
+
+} {} {}} C:/singlecycle/work/nand_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/nand_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} C:/singlecycle/work/not_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/not_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} C:/singlecycle/test/dec_n_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/test/dec_n_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity dec_n_test
+-- Compiling architecture behavioral of dec_n_test
+
+} {} {}} C:/singlecycle/work/or_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/or_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} C:/singlecycle/work/mux_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/mux_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} C:/singlecycle/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/alu.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity alu
+-- Compiling architecture structural_ALU of alu
+
+} {} {}} C:/singlecycle/ctrl_unit_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/ctrl_unit_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ctrl_unit_test
+-- Compiling architecture mix of ctrl_unit_test
+
+} {} {}} C:/singlecycle/extender_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/extender_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extender_demo
+-- Compiling architecture structural_extenderDemo of extender_demo
+
+} {} {}} C:/singlecycle/work/dffr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/dffr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
+} {} {}} C:/singlecycle/alu_ctrl_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/alu_ctrl_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_ctrl_test
+-- Compiling architecture mix of alu_ctrl_test
+
+} {} {}} C:/singlecycle/work/nor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/nor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}} C:/singlecycle/alu_unit_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/alu_unit_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_unit_demo
+-- Compiling architecture structural_unitDemo of alu_unit_demo
+
+} {} {}} C:/singlecycle/singlecycle_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\singlecycle\singlecycle_demo.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity singlecycle_demo
+-- Compiling architecture structural_cpuDemo of singlecycle_demo
+
+} {} {}} C:/singlecycle/work/nand_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/nand_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} C:/singlecycle/work/not_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/not_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} C:/singlecycle/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/adder.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity fulladder
+-- Compiling architecture structural_FA of fulladder
+-- Compiling entity adder
+-- Compiling architecture structural_adder of adder
+
+} {} {}} C:/singlecycle/work/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/singlecycle/work/xor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3c Compiler 2014.07 Jul 19 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}}

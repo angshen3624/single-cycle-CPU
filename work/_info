@@ -1,0 +1,1997 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files\Modelsim
+Eadder
+Z0 w1416197530
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dF:\Dropbox\Project2
+Z4 8F:/Dropbox/Project2/adder.vhd
+Z5 FF:/Dropbox/Project2/adder.vhd
+l0
+L30
+VNT1DD^?8^Ci5JAnjSSPnb3
+Z6 OV;C;10.1e;51
+32
+Z7 !s108 1418175548.877000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/adder.vhd|
+Z9 !s107 F:/Dropbox/Project2/adder.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 Ib]7cL0Oj4B0m7=aVn?l<2
+!i10b 1
+Astructural_adder
+R1
+R2
+DEx4 work 5 adder 0 22 NT1DD^?8^Ci5JAnjSSPnb3
+l49
+L38
+VEiUDaPbkXgQ=LDFo[28hV0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 :<7X_0N171K7:IeG??3aX0
+!i10b 1
+Ealu
+Z12 w1416531034
+Z13 DPx4 work 13 eecs361_gates 0 22 d17R;iKL_eKPg[]^TG1?e0
+Z14 DPx4 work 7 eecs361 0 22 8aU_k]`1>;QYHXj62`7kl2
+R1
+R2
+R3
+Z15 8F:/Dropbox/Project2/alu.vhd
+Z16 FF:/Dropbox/Project2/alu.vhd
+l0
+L11
+VAWQHLWDlz`=^KP@T;W2><3
+R6
+32
+Z17 !s108 1418175549.018000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/alu.vhd|
+Z19 !s107 F:/Dropbox/Project2/alu.vhd|
+R10
+R11
+!s100 fU2BY=jj1HGk2O^Gb5K>o2
+!i10b 1
+Astructural_alu
+R13
+R14
+R1
+R2
+DEx4 work 3 alu 0 22 AWQHLWDlz`=^KP@T;W2><3
+l55
+L24
+V4]HU58aMZL7JP?@[Mk6_E0
+R6
+32
+R17
+R18
+R19
+R10
+R11
+!s100 U66kW[Pg0C?Og:UL2e91H3
+!i10b 1
+Ealu_ctrl
+Z20 w1416433634
+R13
+R1
+R2
+R3
+Z21 8F:/Dropbox/Project2/alu_ctrl.vhd
+Z22 FF:/Dropbox/Project2/alu_ctrl.vhd
+l0
+L5
+VQWIQAI6mXN8L?NN`0:fcQ2
+R6
+32
+Z23 !s108 1418175549.155000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/alu_ctrl.vhd|
+Z25 !s107 F:/Dropbox/Project2/alu_ctrl.vhd|
+R10
+R11
+!s100 =bnBfkOK8AOn;ebUT]bKe3
+!i10b 1
+Astructure
+R13
+R1
+R2
+DEx4 work 8 alu_ctrl 0 22 QWIQAI6mXN8L?NN`0:fcQ2
+l33
+L13
+V7VkEUgWXEW7XCbXWdL]A:3
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 GC21]65ILM=ezLJSn?j_Z1
+!i10b 1
+Ealu_ctrl_test
+Z26 w1416367144
+R1
+R2
+R3
+Z27 8F:/Dropbox/Project2/test/alu_ctrl_test.vhd
+Z28 FF:/Dropbox/Project2/test/alu_ctrl_test.vhd
+l0
+L4
+V8lR;Kjh96PO;hd`M?29ef0
+R6
+32
+Z29 !s108 1418175550.261000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/test/alu_ctrl_test.vhd|
+Z31 !s107 F:/Dropbox/Project2/test/alu_ctrl_test.vhd|
+R10
+R11
+!s100 B;L67I^gdmL83^hn7_a792
+!i10b 1
+Amix
+R1
+R2
+DEx4 work 13 alu_ctrl_test 0 22 8lR;Kjh96PO;hd`M?29ef0
+l21
+L7
+VEjWR:ede9caBW@Q3L^Iki3
+R6
+32
+R29
+R30
+R31
+R10
+R11
+!s100 5@IFAbF6``:j>P<@]YmX>0
+!i10b 1
+Ealu_unit
+Z32 w1414558897
+R13
+R14
+R1
+R2
+R3
+Z33 8F:/Dropbox/Project2/alu_unit.vhd
+Z34 FF:/Dropbox/Project2/alu_unit.vhd
+l0
+L32
+VJd_^j>SX75oM;B;TTl19e3
+R6
+32
+Z35 !s108 1418175549.295000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/alu_unit.vhd|
+Z37 !s107 F:/Dropbox/Project2/alu_unit.vhd|
+R10
+R11
+!s100 fKj=kQg9XG78764j1;6d00
+!i10b 1
+Astructural_aluunit
+R13
+R14
+R1
+R2
+DEx4 work 8 alu_unit 0 22 Jd_^j>SX75oM;B;TTl19e3
+l61
+L45
+VOL4ZkoXjRKJC[b^DkCLC>0
+R6
+32
+R35
+R36
+R37
+R10
+R11
+!s100 mJ567=99`o[Il=:=cobME1
+!i10b 1
+Eand_6to1
+Z38 w1416450497
+R13
+R1
+R2
+R3
+Z39 8F:/Dropbox/Project2/my_and_6to1.vhd
+Z40 FF:/Dropbox/Project2/my_and_6to1.vhd
+l0
+L5
+VRcbFg7H^lzHDoEL:eI_822
+R6
+32
+Z41 !s108 1418175549.837000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/my_and_6to1.vhd|
+Z43 !s107 F:/Dropbox/Project2/my_and_6to1.vhd|
+R10
+R11
+!s100 0^V82N?D[fX;0dB9I^aG31
+!i10b 1
+Astructure
+R13
+R1
+R2
+DEx4 work 8 and_6to1 0 22 RcbFg7H^lzHDoEL:eI_822
+l14
+L12
+VSKGl7aZQEN0[Jo3Jni_VC0
+R6
+32
+R41
+R42
+R43
+R10
+R11
+!s100 L;P5CYE;8:AWN?2[FY9eG0
+!i10b 1
+Eand_gate
+Z44 w1412572318
+R1
+R2
+R3
+Z45 8F:/Dropbox/Project2/eecs361lib/lib/and_gate.vhd
+Z46 FF:/Dropbox/Project2/eecs361lib/lib/and_gate.vhd
+l0
+L5
+V<60414kYz8bAemU]KX]MW2
+R6
+32
+Z47 !s108 1418175543.812000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/and_gate.vhd|
+Z49 !s107 F:/Dropbox/Project2/eecs361lib/lib/and_gate.vhd|
+R10
+R11
+!s100 h3YbNHhh4f`DDbO:Xoe^N1
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 8 and_gate 0 22 <60414kYz8bAemU]KX]MW2
+l14
+L13
+Vce3b7^?Md^@zPHA?FC=?P1
+R6
+32
+R47
+R48
+R49
+R10
+R11
+!s100 kW:o?mXigjGRcOfLnFVOU3
+!i10b 1
+Eand_gate_32
+R44
+R1
+R2
+R3
+Z50 8F:/Dropbox/Project2/eecs361lib/lib/and_gate_32.vhd
+Z51 FF:/Dropbox/Project2/eecs361lib/lib/and_gate_32.vhd
+l0
+L5
+V60kC3D92l5@a3<MVi;7Q61
+R6
+32
+Z52 !s108 1418175543.962000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/and_gate_32.vhd|
+Z54 !s107 F:/Dropbox/Project2/eecs361lib/lib/and_gate_32.vhd|
+R10
+R11
+!s100 @3Mf0XVX3b5G3DP^1DC990
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 11 and_gate_32 0 22 60kC3D92l5@a3<MVi;7Q61
+l14
+L13
+VlY]O1Mk2Ef9<<lhGR`LOH2
+R6
+32
+R52
+R53
+R54
+R10
+R11
+!s100 GPgZTTjYO33078M<L^VdN0
+!i10b 1
+Eand_gate_n
+R44
+R1
+R2
+R3
+Z55 8F:/Dropbox/Project2/eecs361lib/lib/and_gate_n.vhd
+Z56 FF:/Dropbox/Project2/eecs361lib/lib/and_gate_n.vhd
+l0
+L5
+V7BN^Mj]UcZK[K_ZB4?g9R2
+R6
+32
+Z57 !s108 1418175544.098000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/and_gate_n.vhd|
+Z59 !s107 F:/Dropbox/Project2/eecs361lib/lib/and_gate_n.vhd|
+R10
+R11
+!s100 WfNmc=c_JTkeimeDeP0kH1
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 10 and_gate_n 0 22 7BN^Mj]UcZK[K_ZB4?g9R2
+l17
+L16
+VG_Gj=8;Ia6?UZVS@Gbgb31
+R6
+32
+R57
+R58
+R59
+R10
+R11
+!s100 Z:KhAHQnRAbWMSf7khUXk3
+!i10b 1
+Ecache_test
+R44
+R13
+R14
+Z60 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z61 8F:/Dropbox/Project2/eecs361lib/lib/cache_test.vhd
+Z62 FF:/Dropbox/Project2/eecs361lib/lib/cache_test.vhd
+l0
+L7
+V_9?KX`6bOY5nl0F0367HS1
+R6
+32
+Z63 !s108 1418175544.229000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/cache_test.vhd|
+Z65 !s107 F:/Dropbox/Project2/eecs361lib/lib/cache_test.vhd|
+R10
+R11
+!s100 hF_dgf_HWHQo]WmdTHi152
+!i10b 1
+Amix
+R13
+R14
+R60
+R1
+R2
+DEx4 work 10 cache_test 0 22 _9?KX`6bOY5nl0F0367HS1
+l29
+L24
+Vm9d]m]If`cRP4fF_WbTc>3
+R6
+32
+R63
+R64
+R65
+R10
+R11
+!s100 <VdZ5BXYB@_6e8K;TGGJ_0
+!i10b 1
+Ecmp_n
+R44
+R60
+R1
+R2
+R3
+Z66 8F:/Dropbox/Project2/eecs361lib/lib/cmp_n.vhd
+Z67 FF:/Dropbox/Project2/eecs361lib/lib/cmp_n.vhd
+l0
+L5
+VK;_O6YHdKmIWN:gR3^7H61
+R6
+32
+Z68 !s108 1418175544.364000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/cmp_n.vhd|
+Z70 !s107 F:/Dropbox/Project2/eecs361lib/lib/cmp_n.vhd|
+R10
+R11
+!s100 Pm5L[Qj6f^C<=?FiF=bR40
+!i10b 1
+Abehavioral
+R60
+R1
+R2
+DEx4 work 5 cmp_n 0 22 K;_O6YHdKmIWN:gR3^7H61
+l23
+L22
+VMCHF0F9?ERDjN_VoMa7653
+R6
+32
+R68
+R69
+R70
+R10
+R11
+!s100 OiPj9=URYnkScTz[8W9cS0
+!i10b 1
+Ecsram
+R44
+R60
+Z71 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z72 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z73 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+Z74 8F:/Dropbox/Project2/eecs361lib/lib/csram.vhd
+Z75 FF:/Dropbox/Project2/eecs361lib/lib/csram.vhd
+l0
+L12
+VinE=f`?:88fX@L5=TcE6h1
+R6
+32
+Z76 !s108 1418175544.548000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/csram.vhd|
+Z78 !s107 F:/Dropbox/Project2/eecs361lib/lib/csram.vhd|
+R10
+R11
+!s100 DPVJe0Rg0Cz1UX[Zkh>kd1
+!i10b 1
+Abehavioral
+R60
+R71
+R72
+R73
+R1
+R2
+DEx4 work 5 csram 0 22 inE=f`?:88fX@L5=TcE6h1
+l28
+L27
+V8b4VnkME7eCLSFHh`<ZLH1
+R6
+32
+R76
+R77
+R78
+R10
+R11
+!s100 T4R7b<0@SDlFZf9O2CQG:1
+!i10b 1
+Ectrl_unit
+Z79 w1416434544
+R13
+R1
+R2
+R3
+Z80 8F:/Dropbox/Project2/ctrl_unit.vhd
+Z81 FF:/Dropbox/Project2/ctrl_unit.vhd
+l0
+L5
+VnXkdb9dbgEY`FO[7BmdQG1
+R6
+32
+Z82 !s108 1418175549.587000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/ctrl_unit.vhd|
+Z84 !s107 F:/Dropbox/Project2/ctrl_unit.vhd|
+R10
+R11
+!s100 H92?2z?E];mC5=oRVSgVk1
+!i10b 1
+Astructure
+R13
+R1
+R2
+DEx4 work 9 ctrl_unit 0 22 nXkdb9dbgEY`FO[7BmdQG1
+l39
+L19
+VEUQ^z`4UC>3cA7OnVz`G82
+R6
+32
+R82
+R83
+R84
+R10
+R11
+!s100 jDkkTkOzGRSJn;]T:baH^1
+!i10b 1
+Ectrl_unit_test
+Z85 w1416369880
+R1
+R2
+R3
+Z86 8F:/Dropbox/Project2/test/ctrl_unit_test.vhd
+Z87 FF:/Dropbox/Project2/test/ctrl_unit_test.vhd
+l0
+L4
+VWMaD32z87YNILe7N0l5Ro3
+R6
+32
+Z88 !s108 1418175550.395000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/test/ctrl_unit_test.vhd|
+Z90 !s107 F:/Dropbox/Project2/test/ctrl_unit_test.vhd|
+R10
+R11
+!s100 [gnScZeA1DCL:fmj7[LcF1
+!i10b 1
+Amix
+R1
+R2
+DEx4 work 14 ctrl_unit_test 0 22 WMaD32z87YNILe7N0l5Ro3
+l33
+L7
+Vh;`SEI99A5SZDG=CmdJNj0
+R6
+32
+R88
+R89
+R90
+R10
+R11
+!s100 QBGRTQ4J8mnO;^]kSS^fT2
+!i10b 1
+Edec_n
+R44
+R60
+R1
+R2
+R3
+Z91 8F:/Dropbox/Project2/eecs361lib/lib/dec_n.vhd
+Z92 FF:/Dropbox/Project2/eecs361lib/lib/dec_n.vhd
+l0
+L5
+Vk8Z`RaeeiT2004LekGP_j2
+R6
+32
+Z93 !s108 1418175544.681000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/dec_n.vhd|
+Z95 !s107 F:/Dropbox/Project2/eecs361lib/lib/dec_n.vhd|
+R10
+R11
+!s100 iQE2QF?CkEgU^jP7PXzd>2
+!i10b 1
+Abehavioral
+R60
+R1
+R2
+DEx4 work 5 dec_n 0 22 k8Z`RaeeiT2004LekGP_j2
+l16
+L15
+Vdd>SPjzl2_GMJbncO;SHA3
+R6
+32
+R93
+R94
+R95
+R10
+R11
+!s100 =HCG<>dE@OB<UjI1hCU<N1
+!i10b 1
+Edff
+R44
+R1
+R2
+R3
+Z96 8F:/Dropbox/Project2/eecs361lib/lib/dff.vhd
+Z97 FF:/Dropbox/Project2/eecs361lib/lib/dff.vhd
+l0
+L4
+Vjc8CP=joco=:m:oNM4Lo=0
+R6
+32
+Z98 !s108 1418175544.799000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/dff.vhd|
+Z100 !s107 F:/Dropbox/Project2/eecs361lib/lib/dff.vhd|
+R10
+R11
+!s100 bd[5POPTOh1ERHcFY[Haj1
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 3 dff 0 22 jc8CP=joco=:m:oNM4Lo=0
+l13
+L12
+VRmQUjk`AJl6cV3Yblk:mo2
+R6
+32
+R98
+R99
+R100
+R10
+R11
+!s100 YRCZNI2;bB9zXCK5VTiVK1
+!i10b 1
+Edffr
+R44
+R1
+R2
+R3
+Z101 8F:/Dropbox/Project2/eecs361lib/lib/dffr.vhd
+Z102 FF:/Dropbox/Project2/eecs361lib/lib/dffr.vhd
+l0
+L4
+VT3P1ceAATi5FmNXGGFXW01
+R6
+32
+Z103 !s108 1418175544.928000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/dffr.vhd|
+Z105 !s107 F:/Dropbox/Project2/eecs361lib/lib/dffr.vhd|
+R10
+R11
+!s100 69EDFD_7`9o1Zn<zzL>`A1
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 4 dffr 0 22 T3P1ceAATi5FmNXGGFXW01
+l13
+L12
+VL?dghHJIc34L9zb65A9>;3
+R6
+32
+R103
+R104
+R105
+R10
+R11
+!s100 W`oCkJ=<SKR4oDAF?jDT[2
+!i10b 1
+Edffr_a
+R44
+R1
+R2
+R3
+Z106 8F:/Dropbox/Project2/eecs361lib/lib/dffr_a.vhd
+Z107 FF:/Dropbox/Project2/eecs361lib/lib/dffr_a.vhd
+l0
+L4
+VndhbcIWR@o4]T@HZh1c6X3
+R6
+32
+Z108 !s108 1418175545.076000
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/dffr_a.vhd|
+Z110 !s107 F:/Dropbox/Project2/eecs361lib/lib/dffr_a.vhd|
+R10
+R11
+!s100 @8?^>]ClXhXiE0MUi:K;;2
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 6 dffr_a 0 22 ndhbcIWR@o4]T@HZh1c6X3
+l17
+L16
+VXFJUM?7zfmORnc`51OUA`0
+R6
+32
+R108
+R109
+R110
+R10
+R11
+!s100 m[V^Oij4=A=5D3Kb2diF?2
+!i10b 1
+Peecs361
+R13
+R1
+R2
+R44
+R3
+8F:/Dropbox/Project2/eecs361lib/lib/eecs361.vhd
+FF:/Dropbox/Project2/eecs361lib/lib/eecs361.vhd
+l0
+L8
+V8aU_k]`1>;QYHXj62`7kl2
+R6
+32
+R10
+R11
+!s100 k3`BTOL@EhNS6Vg^]jG@W0
+!i10b 1
+!s108 1418175545.229000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/eecs361.vhd|
+!s107 F:/Dropbox/Project2/eecs361lib/lib/eecs361.vhd|
+Peecs361_gates
+R1
+R2
+R44
+R3
+8F:/Dropbox/Project2/eecs361lib/lib/eecs361_gates.vhd
+FF:/Dropbox/Project2/eecs361lib/lib/eecs361_gates.vhd
+l0
+L4
+Vd17R;iKL_eKPg[]^TG1?e0
+R6
+32
+R10
+R11
+!s100 Y6I5zG>@aMjRiDM^aD@lT2
+!i10b 1
+!s108 1418175545.336000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/eecs361_gates.vhd|
+!s107 F:/Dropbox/Project2/eecs361lib/lib/eecs361_gates.vhd|
+Efile_unit
+Z111 w1416460379
+R13
+R14
+R1
+R2
+R3
+Z112 8F:/Dropbox/Project2/reg_file.vhd
+Z113 FF:/Dropbox/Project2/reg_file.vhd
+l0
+L5
+VUm_Tn_kWVZSY:n_`a^aFG1
+R6
+32
+Z114 !s108 1418175550.104000
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/reg_file.vhd|
+Z116 !s107 F:/Dropbox/Project2/reg_file.vhd|
+R10
+R11
+!s100 C:i9H0lNhTZOnoQE8RjAK2
+!i10b 1
+Astructural_regfileunit
+R13
+R14
+R1
+R2
+DEx4 work 9 file_unit 0 22 Um_Tn_kWVZSY:n_`a^aFG1
+l16
+L15
+VY]FjRMSc;W^noYj<26XLb3
+R6
+32
+R114
+R115
+R116
+R10
+R11
+!s100 F8J:NmAH?WP=_zhikjhJ11
+!i10b 1
+Efulladder
+R32
+R13
+R1
+R2
+R3
+R33
+R34
+l0
+L5
+V=^i[Sg^mP69HeKSC[>GC50
+R6
+32
+R35
+R36
+R37
+R10
+R11
+!s100 hcJdoj5mn7g^@I2U2U;_@3
+!i10b 1
+Astructural_fa
+R13
+R1
+R2
+DEx4 work 9 fulladder 0 22 =^i[Sg^mP69HeKSC[>GC50
+l19
+L15
+VYRXIGVb66[ICP6D]Ye?C;0
+R6
+32
+R35
+R36
+R37
+R10
+R11
+!s100 c[fG1b<;[ATETB?kJb7=o2
+!i10b 1
+Efulladder_32
+R44
+R1
+R2
+R3
+Z117 8F:/Dropbox/Project2/eecs361lib/lib/fulladder_32.vhd
+Z118 FF:/Dropbox/Project2/eecs361lib/lib/fulladder_32.vhd
+l0
+L4
+VIo5<__D9=okKkmI2nDlm^2
+R6
+32
+Z119 !s108 1418175545.444000
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/fulladder_32.vhd|
+Z121 !s107 F:/Dropbox/Project2/eecs361lib/lib/fulladder_32.vhd|
+R10
+R11
+!s100 ?LzPHmiLbFNcj<C[bc1Rj0
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 12 fulladder_32 0 22 Io5<__D9=okKkmI2nDlm^2
+l27
+L14
+VCTmj2MmC9Y=^VM<CoX5SF2
+R6
+32
+R119
+R120
+R121
+R10
+R11
+!s100 ?MBT2;ePI>`6cJ?^McXKh1
+!i10b 1
+Efulladder_n
+R44
+R60
+R1
+R2
+R3
+Z122 8F:/Dropbox/Project2/eecs361lib/lib/fulladder_n.vhd
+Z123 FF:/Dropbox/Project2/eecs361lib/lib/fulladder_n.vhd
+l0
+L5
+V]T:Rd?94C<Baha6ek]z;M1
+R6
+32
+Z124 !s108 1418175545.679000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/fulladder_n.vhd|
+Z126 !s107 F:/Dropbox/Project2/eecs361lib/lib/fulladder_n.vhd|
+R10
+R11
+!s100 8Y_oAf5gHKP@4`HNGA8ZV2
+!i10b 1
+Abehavioral
+R60
+R1
+R2
+DEx4 work 11 fulladder_n 0 22 ]T:Rd?94C<Baha6ek]z;M1
+l20
+L18
+VgPSfz3O>Q0>c:>aQA<Hzj3
+R6
+32
+R124
+R125
+R126
+R10
+R11
+!s100 4PdD<V<bA`j@I`S4cHLFz0
+!i10b 1
+Emux
+R44
+R13
+R14
+R1
+R2
+R3
+Z127 8F:/Dropbox/Project2/eecs361lib/lib/mux.vhd
+Z128 FF:/Dropbox/Project2/eecs361lib/lib/mux.vhd
+l0
+L5
+VnUF5k_lRVzBJJ4C<Z2D9<3
+R6
+32
+Z129 !s108 1418175545.816000
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/mux.vhd|
+Z131 !s107 F:/Dropbox/Project2/eecs361lib/lib/mux.vhd|
+R10
+R11
+!s100 RdV@fgjGZm0e7@Z3SBQb=0
+!i10b 1
+Astructural
+R13
+R14
+R1
+R2
+DEx4 work 3 mux 0 22 nUF5k_lRVzBJJ4C<Z2D9<3
+l15
+L14
+Vnd0S=IPW:@X:h]Lm@9RWT0
+R6
+32
+R129
+R130
+R131
+R10
+R11
+!s100 ELB6QMl2kn`m=CMVRlf?31
+!i10b 1
+Emux_32
+R44
+R13
+R14
+R1
+R2
+R3
+Z132 8F:/Dropbox/Project2/eecs361lib/lib/mux_32.vhd
+Z133 FF:/Dropbox/Project2/eecs361lib/lib/mux_32.vhd
+l0
+L5
+VXFeUdbPoalHm:@Q=dG7Cj2
+R6
+32
+Z134 !s108 1418175545.961000
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/mux_32.vhd|
+Z136 !s107 F:/Dropbox/Project2/eecs361lib/lib/mux_32.vhd|
+R10
+R11
+!s100 Edz74h^Q2gb;oIMo3o4BT1
+!i10b 1
+Astructural
+R13
+R14
+R1
+R2
+DEx4 work 6 mux_32 0 22 XFeUdbPoalHm:@Q=dG7Cj2
+l15
+L14
+VIFI^Q>_fjJ^@zhGaRn6Ek2
+R6
+32
+R134
+R135
+R136
+R10
+R11
+!s100 Zd[D4geCKfXoE]JnWXiBK0
+!i10b 1
+Emux_n
+R44
+R1
+R2
+R3
+Z137 8F:/Dropbox/Project2/eecs361lib/lib/mux_n.vhd
+Z138 FF:/Dropbox/Project2/eecs361lib/lib/mux_n.vhd
+l0
+L4
+Vg2XMA]Y7DldfgmM:f^F]n1
+R6
+32
+Z139 !s108 1418175546.085000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/mux_n.vhd|
+Z141 !s107 F:/Dropbox/Project2/eecs361lib/lib/mux_n.vhd|
+R10
+R11
+!s100 72Ocn^61E=F=Q@fMd70jC0
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 5 mux_n 0 22 g2XMA]Y7DldfgmM:f^F]n1
+l17
+L16
+Vo0VIX3DVf<UDTZUMEQ7^i0
+R6
+32
+R139
+R140
+R141
+R10
+R11
+!s100 >1FfCMGYSE3_9X`BLig192
+!i10b 1
+Enand_gate
+R44
+R1
+R2
+R3
+Z142 8F:/Dropbox/Project2/eecs361lib/lib/nand_gate.vhd
+Z143 FF:/Dropbox/Project2/eecs361lib/lib/nand_gate.vhd
+l0
+L5
+VOb3aXkKGo:Ez8f0TnM>j<1
+R6
+32
+Z144 !s108 1418175546.194000
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/nand_gate.vhd|
+Z146 !s107 F:/Dropbox/Project2/eecs361lib/lib/nand_gate.vhd|
+R10
+R11
+!s100 cgS8R0?=c0_UQKH?Gn7[o3
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 9 nand_gate 0 22 Ob3aXkKGo:Ez8f0TnM>j<1
+l14
+L13
+VCzXm>CV9>TH@WGa1kfQO12
+R6
+32
+R144
+R145
+R146
+R10
+R11
+!s100 6X;2]DSURnNVc?[FGETfd2
+!i10b 1
+Enand_gate_32
+R44
+R1
+R2
+R3
+Z147 8F:/Dropbox/Project2/eecs361lib/lib/nand_gate_32.vhd
+Z148 FF:/Dropbox/Project2/eecs361lib/lib/nand_gate_32.vhd
+l0
+L5
+V<fAoXGSnG@AcBR?dQW^jT3
+R6
+32
+Z149 !s108 1418175546.301000
+Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/nand_gate_32.vhd|
+Z151 !s107 F:/Dropbox/Project2/eecs361lib/lib/nand_gate_32.vhd|
+R10
+R11
+!s100 edaDbGJKahjS`ba;?F4@H3
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 12 nand_gate_32 0 22 <fAoXGSnG@AcBR?dQW^jT3
+l14
+L13
+VB83XSKRBaVEI^YNO?P[OQ0
+R6
+32
+R149
+R150
+R151
+R10
+R11
+!s100 >faH6YKeX;MX489T`giGB2
+!i10b 1
+Enand_gate_n
+R44
+R1
+R2
+R3
+Z152 8F:/Dropbox/Project2/eecs361lib/lib/nand_gate_n.vhd
+Z153 FF:/Dropbox/Project2/eecs361lib/lib/nand_gate_n.vhd
+l0
+L5
+VMmQfUTHhhi=SeU@@HBED[1
+R6
+32
+Z154 !s108 1418175546.422000
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/nand_gate_n.vhd|
+Z156 !s107 F:/Dropbox/Project2/eecs361lib/lib/nand_gate_n.vhd|
+R10
+R11
+!s100 bdh[B=WYo3V@ajd`ifo8@2
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 11 nand_gate_n 0 22 MmQfUTHhhi=SeU@@HBED[1
+l17
+L16
+VD>;GLib_mE80V23ZFV3_@3
+R6
+32
+R154
+R155
+R156
+R10
+R11
+!s100 g=F;m>I3[OY7>lO_:;L6b2
+!i10b 1
+Enor_gate
+R44
+R1
+R2
+R3
+Z157 8F:/Dropbox/Project2/eecs361lib/lib/nor_gate.vhd
+Z158 FF:/Dropbox/Project2/eecs361lib/lib/nor_gate.vhd
+l0
+L5
+V?=o:OgamS250SL;f3d[1<2
+R6
+32
+Z159 !s108 1418175546.564000
+Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/nor_gate.vhd|
+Z161 !s107 F:/Dropbox/Project2/eecs361lib/lib/nor_gate.vhd|
+R10
+R11
+!s100 6Y_bJ51SJB]IO_mGg>_m`2
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 8 nor_gate 0 22 ?=o:OgamS250SL;f3d[1<2
+l14
+L13
+VBWgHj7_aoDif]R[<zV6EX3
+R6
+32
+R159
+R160
+R161
+R10
+R11
+!s100 `kS>=V;[<l9CMV2Ig;G<O0
+!i10b 1
+Enor_gate_32
+R44
+R1
+R2
+R3
+Z162 8F:/Dropbox/Project2/eecs361lib/lib/nor_gate_32.vhd
+Z163 FF:/Dropbox/Project2/eecs361lib/lib/nor_gate_32.vhd
+l0
+L5
+VBWg3LNk1Y1liz:Yi?YJ<12
+R6
+32
+Z164 !s108 1418175546.707000
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/nor_gate_32.vhd|
+Z166 !s107 F:/Dropbox/Project2/eecs361lib/lib/nor_gate_32.vhd|
+R10
+R11
+!s100 CHICSf8DRm>A[6;ib_;8h1
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 11 nor_gate_32 0 22 BWg3LNk1Y1liz:Yi?YJ<12
+l14
+L13
+V2kPEgk7I_Bj1IV:89bfzP2
+R6
+32
+R164
+R165
+R166
+R10
+R11
+!s100 AXki>QW^Ae:3i<IJ=_cCz3
+!i10b 1
+Enor_gate_n
+R44
+R1
+R2
+R3
+Z167 8F:/Dropbox/Project2/eecs361lib/lib/nor_gate_n.vhd
+Z168 FF:/Dropbox/Project2/eecs361lib/lib/nor_gate_n.vhd
+l0
+L5
+V5@znz4fm:b1Ma8aGG@NC50
+R6
+32
+Z169 !s108 1418175546.852000
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/nor_gate_n.vhd|
+Z171 !s107 F:/Dropbox/Project2/eecs361lib/lib/nor_gate_n.vhd|
+R10
+R11
+!s100 BHMEgJJzUOUDJiEX[[P9D0
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 10 nor_gate_n 0 22 5@znz4fm:b1Ma8aGG@NC50
+l17
+L16
+Vml7joaIK[mf70D]DjiNn90
+R6
+32
+R169
+R170
+R171
+R10
+R11
+!s100 >DOPeHl?2eiP]LlgoPVEU3
+!i10b 1
+Enot_gate
+R44
+R1
+R2
+R3
+Z172 8F:/Dropbox/Project2/eecs361lib/lib/not_gate.vhd
+Z173 FF:/Dropbox/Project2/eecs361lib/lib/not_gate.vhd
+l0
+L5
+VK16bWCTJeSV5m>NhK1U8O2
+R6
+32
+Z174 !s108 1418175547.006000
+Z175 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/not_gate.vhd|
+Z176 !s107 F:/Dropbox/Project2/eecs361lib/lib/not_gate.vhd|
+R10
+R11
+!s100 ]]H0N<O`kDYJ[L2CLGAe21
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 8 not_gate 0 22 K16bWCTJeSV5m>NhK1U8O2
+l13
+L12
+Vh_eXfPgIDJ=2[GJNRA3Hh3
+R6
+32
+R174
+R175
+R176
+R10
+R11
+!s100 zPGcXa54KBaUUZL;0i@;H0
+!i10b 1
+Enot_gate_32
+R44
+R1
+R2
+R3
+Z177 8F:/Dropbox/Project2/eecs361lib/lib/not_gate_32.vhd
+Z178 FF:/Dropbox/Project2/eecs361lib/lib/not_gate_32.vhd
+l0
+L5
+VSlkcM=^1HkX1a<066EOMm0
+R6
+32
+Z179 !s108 1418175547.156000
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/not_gate_32.vhd|
+Z181 !s107 F:/Dropbox/Project2/eecs361lib/lib/not_gate_32.vhd|
+R10
+R11
+!s100 1IcOToN3BS?;_TBCK2Do63
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 11 not_gate_32 0 22 SlkcM=^1HkX1a<066EOMm0
+l13
+L12
+VUfYEelzI8J`zSeB>QNKbg2
+R6
+32
+R179
+R180
+R181
+R10
+R11
+!s100 H0V]g_M5;ID5L9_1<zca72
+!i10b 1
+Enot_gate_n
+R44
+R1
+R2
+R3
+Z182 8F:/Dropbox/Project2/eecs361lib/lib/not_gate_n.vhd
+Z183 FF:/Dropbox/Project2/eecs361lib/lib/not_gate_n.vhd
+l0
+L5
+VlBK6GjENacbicWV9fHN_[2
+R6
+32
+Z184 !s108 1418175547.289000
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/not_gate_n.vhd|
+Z186 !s107 F:/Dropbox/Project2/eecs361lib/lib/not_gate_n.vhd|
+R10
+R11
+!s100 D<bTJ[^Ie5f<5:E>I=RRn1
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 10 not_gate_n 0 22 lBK6GjENacbicWV9fHN_[2
+l16
+L15
+VBOC0j>ol`8O50o3kdzDM[1
+R6
+32
+R184
+R185
+R186
+R10
+R11
+!s100 3B3eDj27783^HDOW`j=Ud1
+!i10b 1
+Eor_6to1
+Z187 w1416211260
+R14
+R13
+R1
+R2
+Z188 dF:\Dropbox\Fall 2014\361 Com Archi\Project\Project2
+Z189 8F:\Dropbox\Fall 2014\361 Com Archi\Project\Project2\my_or_6to1.vhd
+Z190 FF:\Dropbox\Fall 2014\361 Com Archi\Project\Project2\my_or_6to1.vhd
+l0
+L7
+VY1mG;e8R:AHZ^C5RAzP]=1
+R6
+32
+Z191 !s108 1416216974.248000
+Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:\Dropbox\Fall 2014\361 Com Archi\Project\Project2\my_or_6to1.vhd|
+Z193 !s107 F:\Dropbox\Fall 2014\361 Com Archi\Project\Project2\my_or_6to1.vhd|
+R10
+R11
+!s100 XFzz1b974O281h?M@3a1e2
+!i10b 1
+Astructure
+R14
+R13
+R1
+R2
+DEx4 work 7 or_6to1 0 22 Y1mG;e8R:AHZ^C5RAzP]=1
+l16
+L14
+VfU0JUJ651E`i6ULK@76Q22
+R6
+32
+R191
+R192
+R193
+R10
+R11
+!s100 ZL8i>d?N4cY41[_]e^2[[3
+!i10b 1
+Eor_gate
+R44
+R1
+R2
+R3
+Z194 8F:/Dropbox/Project2/eecs361lib/lib/or_gate.vhd
+Z195 FF:/Dropbox/Project2/eecs361lib/lib/or_gate.vhd
+l0
+L5
+VGG;=EADEXFjRPLQi`GYgl2
+R6
+32
+Z196 !s108 1418175547.436000
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/or_gate.vhd|
+Z198 !s107 F:/Dropbox/Project2/eecs361lib/lib/or_gate.vhd|
+R10
+R11
+!s100 =mQSPnAKWoWc<oLeFLgWo2
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 7 or_gate 0 22 GG;=EADEXFjRPLQi`GYgl2
+l14
+L13
+VS4C55gBB@Y^XKL>NAe@7^0
+R6
+32
+R196
+R197
+R198
+R10
+R11
+!s100 I1adU3iXC60c`@M@ed6Da2
+!i10b 1
+Eor_gate_32
+R44
+R1
+R2
+R3
+Z199 8F:/Dropbox/Project2/eecs361lib/lib/or_gate_32.vhd
+Z200 FF:/Dropbox/Project2/eecs361lib/lib/or_gate_32.vhd
+l0
+L5
+V[=zi?8Z3loGCUh7F`kDBP0
+R6
+32
+Z201 !s108 1418175547.560000
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/or_gate_32.vhd|
+Z203 !s107 F:/Dropbox/Project2/eecs361lib/lib/or_gate_32.vhd|
+R10
+R11
+!s100 aGEfO2<6f37RH:GanUjR?1
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 10 or_gate_32 0 22 [=zi?8Z3loGCUh7F`kDBP0
+l14
+L13
+VYJ8M5WMb?OZd_0_iaW2g=0
+R6
+32
+R201
+R202
+R203
+R10
+R11
+!s100 1Q^zoP]QC7bO]Dn@5U[eb3
+!i10b 1
+Eor_gate_n
+R44
+R1
+R2
+R3
+Z204 8F:/Dropbox/Project2/eecs361lib/lib/or_gate_n.vhd
+Z205 FF:/Dropbox/Project2/eecs361lib/lib/or_gate_n.vhd
+l0
+L5
+VFdCW<^bAoYUK2TiY;H=bc0
+R6
+32
+Z206 !s108 1418175547.694000
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/or_gate_n.vhd|
+Z208 !s107 F:/Dropbox/Project2/eecs361lib/lib/or_gate_n.vhd|
+R10
+R11
+!s100 jUG?<k5^F:_JieE9eNAG60
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 9 or_gate_n 0 22 FdCW<^bAoYUK2TiY;H=bc0
+l17
+L16
+VC1=Fg=2_DbGJl=9nJnbAN0
+R6
+32
+R206
+R207
+R208
+R10
+R11
+!s100 R;TMJPI7LRHoU4gi4liii2
+!i10b 1
+Eprog_cnt
+Z209 w1416437526
+R13
+R14
+R1
+R2
+R3
+Z210 8F:/Dropbox/Project2/prog_cnt.vhd
+Z211 FF:/Dropbox/Project2/prog_cnt.vhd
+l0
+L5
+V[ZofMRJ=CSE:0HY@K:N<n3
+R6
+32
+Z212 !s108 1418175549.979000
+Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/prog_cnt.vhd|
+Z214 !s107 F:/Dropbox/Project2/prog_cnt.vhd|
+R10
+R11
+!s100 zOC7`ORa=CzW6d207`k4M0
+!i10b 1
+Astructural_pc
+R13
+R14
+R1
+R2
+DEx4 work 8 prog_cnt 0 22 [ZofMRJ=CSE:0HY@K:N<n3
+l16
+L15
+VM9WUFjzKiEc]mncGbl=B40
+R6
+32
+R212
+R213
+R214
+R10
+R11
+!s100 gW>gTfDfZn[XPa4h>EfGz1
+!i10b 1
+Ereg_file
+R111
+R13
+R14
+R1
+R2
+R3
+R112
+R113
+l0
+L28
+VjnbUGHM1KIkC4Hhn]]?b03
+R6
+32
+R114
+R115
+R116
+R10
+R11
+!s100 9AZUfQjki:Y6W_b38SA<]2
+!i10b 1
+Astructural_regfile
+R13
+R14
+R1
+R2
+DEx4 work 8 reg_file 0 22 jnbUGHM1KIkC4Hhn]]?b03
+l69
+L42
+VlXz[QB1Fm[[OVK^U81@f01
+R6
+32
+R114
+R115
+R116
+R10
+R11
+!s100 `fJlne04Qgc16FkkMeD?11
+!i10b 1
+Esign_extender
+Z215 w1416434511
+R1
+R2
+R3
+Z216 8F:/Dropbox/Project2/extender.vhd
+Z217 FF:/Dropbox/Project2/extender.vhd
+l0
+L4
+VM>FMM^]gf<0T4o0;kH;S60
+R6
+32
+Z218 !s108 1418175549.701000
+Z219 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/extender.vhd|
+Z220 !s107 F:/Dropbox/Project2/extender.vhd|
+R10
+R11
+!s100 jWdo9a_R9Z@?5MW3baDSJ1
+!i10b 1
+Astructural_ext
+R1
+R2
+DEx4 work 13 sign_extender 0 22 M>FMM^]gf<0T4o0;kH;S60
+l12
+L11
+Vdkf4Vb5TNFKPne<;?;nFa1
+R6
+32
+R218
+R219
+R220
+R10
+R11
+!s100 2=Go1Dd81oEGa<3LaL78P0
+!i10b 1
+Esinglecycle
+Z221 w1416532469
+R13
+R14
+R1
+R2
+R3
+Z222 8F:/Dropbox/Project2/singlecycle.vhd
+Z223 FF:/Dropbox/Project2/singlecycle.vhd
+l0
+L6
+VUT4[g@`YNP`e=gAgR`aWV2
+R6
+32
+Z224 !s108 1418175550.519000
+Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/singlecycle.vhd|
+Z226 !s107 F:/Dropbox/Project2/singlecycle.vhd|
+R10
+R11
+!s100 j;gTVcB^6<2:P_19_T62e2
+!i10b 1
+Astructural
+R13
+R14
+R1
+R2
+DEx4 work 11 singlecycle 0 22 UT4[g@`YNP`e=gAgR`aWV2
+l122
+L16
+VUR92KIaPb0KDn[bZl51CU1
+R6
+32
+R224
+R225
+R226
+R10
+R11
+!s100 Ic5oe;^:N<j7Y3`efMB<<1
+!i10b 1
+Esinglecycle_demo
+Z227 w1416536624
+R60
+R1
+R2
+R3
+Z228 8F:/Dropbox/Project2/singlecycle_demo.vhd
+Z229 FF:/Dropbox/Project2/singlecycle_demo.vhd
+l0
+L5
+Vfnc^UTSCHfWi:zjT0RVPz0
+!s100 FZL6dR]QN24QC2:0:<XD=2
+R6
+32
+!i10b 1
+Z230 !s108 1418175550.795000
+Z231 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/singlecycle_demo.vhd|
+Z232 !s107 F:/Dropbox/Project2/singlecycle_demo.vhd|
+R10
+R11
+Astructural_cpudemo
+R60
+R1
+R2
+Z233 DEx4 work 16 singlecycle_demo 0 22 fnc^UTSCHfWi:zjT0RVPz0
+l20
+L8
+Z234 VJTl0;Y[iD<=aLAQl:0baK2
+Z235 !s100 LJlfU:Ef6WQA0;1gPSi490
+R6
+32
+!i10b 1
+R230
+R231
+R232
+R10
+R11
+Esram
+Z236 w1416353981
+R60
+R71
+R72
+R73
+R1
+R2
+R3
+Z237 8F:/Dropbox/Project2/eecs361lib/lib/sram.vhd
+Z238 FF:/Dropbox/Project2/eecs361lib/lib/sram.vhd
+l0
+L12
+V276W[<d8><W[@i8fHI7NU1
+R6
+32
+Z239 !s108 1418175547.829000
+Z240 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/sram.vhd|
+Z241 !s107 F:/Dropbox/Project2/eecs361lib/lib/sram.vhd|
+R10
+R11
+!s100 ^[L:n1^E3U9m@d<OzzXCF0
+!i10b 1
+Abehavioral
+R60
+R71
+R72
+R73
+R1
+R2
+DEx4 work 4 sram 0 22 276W[<d8><W[@i8fHI7NU1
+l27
+L26
+V8L@W1eEWi8z=T<R42c@Ng1
+R6
+32
+R239
+R240
+R241
+R10
+R11
+!s100 Aiz]z>6Y6R`h0IJ44@:Zc0
+!i10b 1
+Esram_demo
+R236
+R14
+R13
+R60
+R1
+R2
+R3
+Z242 8F:/Dropbox/Project2/eecs361lib/demo/sram_demo.vhd
+Z243 FF:/Dropbox/Project2/eecs361lib/demo/sram_demo.vhd
+l0
+L8
+Vg=4[K7C4YmTPC`[Mh0fDE0
+R6
+32
+Z244 !s108 1418175550.643000
+Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/demo/sram_demo.vhd|
+Z246 !s107 F:/Dropbox/Project2/eecs361lib/demo/sram_demo.vhd|
+R10
+R11
+!s100 Wn7z?NE:Eb5zL1N_LNDi83
+!i10b 1
+Astructural
+R14
+R13
+R60
+R1
+R2
+DEx4 work 9 sram_demo 0 22 g=4[K7C4YmTPC`[Mh0fDE0
+l21
+L14
+Veg<RBB`R??@LoPTBgOS[T2
+!s100 g6_dS]_69e0cec;2`3mLM2
+R6
+32
+R244
+R245
+R246
+R10
+R11
+!i10b 1
+Esram_test
+Z247 w1416518283
+R13
+R14
+R60
+R72
+R73
+R1
+R2
+R3
+Z248 8F:/Dropbox/Project2/test/sram_test.vhd
+Z249 FF:/Dropbox/Project2/test/sram_test.vhd
+l0
+L7
+V9Z@XNSN8Hf4Q]I4DEYiK22
+R6
+32
+Z250 !s108 1416518302.866000
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/test/sram_test.vhd|
+Z252 !s107 F:/Dropbox/Project2/test/sram_test.vhd|
+R10
+R11
+!s100 Wo:31jlR<zeaa9FR:8iV?0
+!i10b 1
+Abehavioral
+R13
+R14
+R60
+R72
+R73
+R1
+R2
+DEx4 work 9 sram_test 0 22 9Z@XNSN8Hf4Q]I4DEYiK22
+l17
+L10
+V9C^<F7?mQiHAKoBL0ilCT0
+R6
+32
+R250
+R251
+R252
+R10
+R11
+!s100 JLocnbEEg9=hO4=PlnKcD3
+!i10b 1
+Esyncram
+R44
+R60
+R71
+R72
+R73
+R1
+R2
+R3
+Z253 8F:/Dropbox/Project2/eecs361lib/lib/syncram.vhd
+Z254 FF:/Dropbox/Project2/eecs361lib/lib/syncram.vhd
+l0
+L12
+V60L>U:0EYilgXmYR_KPHE3
+R6
+32
+Z255 !s108 1418175547.979000
+Z256 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/syncram.vhd|
+Z257 !s107 F:/Dropbox/Project2/eecs361lib/lib/syncram.vhd|
+R10
+R11
+!s100 bZHKF^V=nkQ96S]JO>F@61
+!i10b 1
+Abehavioral
+R60
+R71
+R72
+R73
+R1
+R2
+DEx4 work 7 syncram 0 22 60L>U:0EYilgXmYR_KPHE3
+l28
+L27
+V;oefX`?mKZF5Hg4DlF9?B2
+R6
+32
+R255
+R256
+R257
+R10
+R11
+!s100 n9lCOMeegC;D84e14boZ]0
+!i10b 1
+Exnor_gate
+R44
+R1
+R2
+R3
+Z258 8F:/Dropbox/Project2/eecs361lib/lib/xnor_gate.vhd
+Z259 FF:/Dropbox/Project2/eecs361lib/lib/xnor_gate.vhd
+l0
+L5
+VI0F_B78ADQlIL4Im7EAoI1
+R6
+32
+Z260 !s108 1418175548.125000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/xnor_gate.vhd|
+Z262 !s107 F:/Dropbox/Project2/eecs361lib/lib/xnor_gate.vhd|
+R10
+R11
+!s100 VPUPjPfEbandSfQT?_95B0
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 9 xnor_gate 0 22 I0F_B78ADQlIL4Im7EAoI1
+l14
+L13
+V:o=L<cfe9XHZ``;S`4eYf1
+R6
+32
+R260
+R261
+R262
+R10
+R11
+!s100 _ZC:hnkFC2o9P4HKdfk7>1
+!i10b 1
+Exnor_gate_32
+R44
+R1
+R2
+R3
+Z263 8F:/Dropbox/Project2/eecs361lib/lib/xnor_gate_32.vhd
+Z264 FF:/Dropbox/Project2/eecs361lib/lib/xnor_gate_32.vhd
+l0
+L5
+VF=8B=D3Z_hFFbSd@kbcMl1
+R6
+32
+Z265 !s108 1418175548.259000
+Z266 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/xnor_gate_32.vhd|
+Z267 !s107 F:/Dropbox/Project2/eecs361lib/lib/xnor_gate_32.vhd|
+R10
+R11
+!s100 Och@`@4T?f9hZlQMbV9KV3
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 12 xnor_gate_32 0 22 F=8B=D3Z_hFFbSd@kbcMl1
+l14
+L13
+VnYbaTe7:N:[c`bcE5iZX<0
+R6
+32
+R265
+R266
+R267
+R10
+R11
+!s100 71EJbdh?cKgE4QVTDVUc]2
+!i10b 1
+Exnor_gate_n
+R44
+R1
+R2
+R3
+Z268 8F:/Dropbox/Project2/eecs361lib/lib/xnor_gate_n.vhd
+Z269 FF:/Dropbox/Project2/eecs361lib/lib/xnor_gate_n.vhd
+l0
+L5
+VGL?T4d>>fLdMA3gF_b77k3
+R6
+32
+Z270 !s108 1418175548.381000
+Z271 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/xnor_gate_n.vhd|
+Z272 !s107 F:/Dropbox/Project2/eecs361lib/lib/xnor_gate_n.vhd|
+R10
+R11
+!s100 <gU13dnPj7P:FmGiIN<GG0
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 11 xnor_gate_n 0 22 GL?T4d>>fLdMA3gF_b77k3
+l17
+L16
+V<aCRe7C_gXg`ZTJg`8:fo2
+R6
+32
+R270
+R271
+R272
+R10
+R11
+!s100 V:_d`U2mLkhjLi`i3i>T81
+!i10b 1
+Exor_gate
+R44
+R1
+R2
+R3
+Z273 8F:/Dropbox/Project2/eecs361lib/lib/xor_gate.vhd
+Z274 FF:/Dropbox/Project2/eecs361lib/lib/xor_gate.vhd
+l0
+L5
+VQmk`dYFJGD5R1lK6V6JGI1
+R6
+32
+Z275 !s108 1418175548.511000
+Z276 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/xor_gate.vhd|
+Z277 !s107 F:/Dropbox/Project2/eecs361lib/lib/xor_gate.vhd|
+R10
+R11
+!s100 PE0@VZVY2cjj78zRj[BkO0
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 8 xor_gate 0 22 Qmk`dYFJGD5R1lK6V6JGI1
+l14
+L13
+VKE8kH79^Gd42P<FzkC;Jc3
+R6
+32
+R275
+R276
+R277
+R10
+R11
+!s100 FE@a4b4eoCE58ANXL33`W2
+!i10b 1
+Exor_gate_32
+R44
+R1
+R2
+R3
+Z278 8F:/Dropbox/Project2/eecs361lib/lib/xor_gate_32.vhd
+Z279 FF:/Dropbox/Project2/eecs361lib/lib/xor_gate_32.vhd
+l0
+L5
+VOX1^iBO>g6@I7C[;fP@S[1
+R6
+32
+Z280 !s108 1418175548.640000
+Z281 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/xor_gate_32.vhd|
+Z282 !s107 F:/Dropbox/Project2/eecs361lib/lib/xor_gate_32.vhd|
+R10
+R11
+!s100 l2ceUOHV=nUzk<ISL6D_^1
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 11 xor_gate_32 0 22 OX1^iBO>g6@I7C[;fP@S[1
+l14
+L13
+VaMFAkkXN>?f<k9QFMW0[D2
+R6
+32
+R280
+R281
+R282
+R10
+R11
+!s100 M0ETgC[iDdGd3C2H@CQCk0
+!i10b 1
+Exor_gate_n
+R44
+R1
+R2
+R3
+Z283 8F:/Dropbox/Project2/eecs361lib/lib/xor_gate_n.vhd
+Z284 FF:/Dropbox/Project2/eecs361lib/lib/xor_gate_n.vhd
+l0
+L5
+VGfX4`DHXb4@JGJin?K9Eo3
+R6
+32
+Z285 !s108 1418175548.758000
+Z286 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Dropbox/Project2/eecs361lib/lib/xor_gate_n.vhd|
+Z287 !s107 F:/Dropbox/Project2/eecs361lib/lib/xor_gate_n.vhd|
+R10
+R11
+!s100 [J;S2B;FBQMJ>^UEGC40C3
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 10 xor_gate_n 0 22 GfX4`DHXb4@JGJin?K9Eo3
+l17
+L16
+Vk[<SzH7cLi00O_YiG9N9X0
+R6
+32
+R285
+R286
+R287
+R10
+R11
+!s100 b9B3Go4P<kb0TUKGSi_g[1
+!i10b 1

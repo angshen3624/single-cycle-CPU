@@ -1,0 +1,151 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.eecs361_gates.all;
+
+entity alu_ctrl is
+  port (
+    ALUop     : in  std_logic_vector(1 downto 0);      
+    func      : in  std_logic_vector(5 downto 0);
+    ALUctr    : out std_logic_vector(3 downto 0)
+);
+end alu_ctrl;
+
+architecture structure of alu_ctrl is
+
+
+signal wire            : std_logic_vector(9 downto 0);     
+signal ADDop_and_in    : std_logic_vector(1 downto 0);
+signal SUBop_and_in    : std_logic;
+signal add_and_in, addu_and_in, sub_and_in, subu_and_in, 
+       and_and_in, or_and_in, sll_and_in, slt_and_in, 
+       sltu_and_in     : std_logic_vector(5 downto 0);
+signal ADDop_and_out, SUBop_and_out, add_and_out, addu_and_out, 
+       sub_and_out, subu_and_out, and_and_out, or_and_out, 
+       sll_and_out, slt_and_out, sltu_and_out : std_logic;
+       
+component and_6to1 is
+  port (
+    op        : in std_logic_vector(5 downto 0);      
+    oq        : out std_logic
+);
+end component;
+
+begin
+    -- ADD: addi, lw, sw
+    ADDop_and_0:   not_gate port map(ALUop(0), ADDop_and_in(0));
+    ADDop_and_1:   not_gate port map(ALUop(1), ADDop_and_in(1));
+    ADDop_and_2:   and_gate port map(ADDop_and_in(0), ADDop_and_in(1), ADDop_and_out);
+      
+    -- SUB: sub, subu
+    SUBop_and_0:   not_gate port map(ALUop(1), SUBop_and_in);
+    SUBop_and_1:   and_gate port map(SUBop_and_in, ALUop(0), SUBop_and_out);
+    
+    -- add
+    add_and_0:     not_gate port map(func(0), add_and_in(0));
+    add_and_1:     not_gate port map(func(1), add_and_in(1));
+    add_and_2:     not_gate port map(func(2), add_and_in(2));
+    add_and_3:     not_gate port map(func(3), add_and_in(3));
+    add_and_in(4) <= func(5);
+    add_and_in(5) <= ALUop(1);
+    add_and_4:     and_6to1 port map(add_and_in, add_and_out);
+    
+    -- addu
+    addu_and_0:    not_gate port map(func(1), addu_and_in(1));
+    addu_and_1:    not_gate port map(func(2), addu_and_in(2));
+    addu_and_2:    not_gate port map(func(3), addu_and_in(3));
+    addu_and_in(0) <= func(0);       
+    addu_and_in(4) <= func(5);
+    addu_and_in(5) <= ALUop(1);
+    addu_and_4:    and_6to1 port map(addu_and_in, addu_and_out);
+    
+    -- sub
+    sub_and_0:     not_gate port map(func(0), sub_and_in(0));
+    sub_and_1:     not_gate port map(func(2), sub_and_in(2));
+    sub_and_2:     not_gate port map(func(3), sub_and_in(3));
+    sub_and_in(1) <= func(1);       
+    sub_and_in(4) <= func(5);
+    sub_and_in(5) <= ALUop(1);
+    sub_and_3:     and_6to1 port map(sub_and_in, sub_and_out);
+    
+    -- subu
+    subu_and_0:    not_gate port map(func(2), subu_and_in(2));
+    subu_and_1:    not_gate port map(func(3), subu_and_in(3));
+    subu_and_in(0) <= func(0);       
+    subu_and_in(1) <= func(1);
+    subu_and_in(4) <= func(5);
+    subu_and_in(5) <= ALUop(1);
+    subu_and_2:    and_6to1 port map(subu_and_in, subu_and_out);
+    
+    -- and
+    and_and_0:     not_gate port map(func(0), and_and_in(0));
+    and_and_1:     not_gate port map(func(1), and_and_in(1));
+    and_and_2:     not_gate port map(func(3), and_and_in(3));
+    and_and_in(2) <= func(2);
+    and_and_in(4) <= func(5);
+    and_and_in(5) <= ALUop(1);
+    and_and_3:     and_6to1 port map(and_and_in, and_and_out);
+    
+    -- or
+    or_and_0:      not_gate port map(func(1), or_and_in(1));
+    or_and_1:      not_gate port map(func(3), or_and_in(3));
+    or_and_in(0) <= func(0);       
+    or_and_in(2) <= func(2);
+    or_and_in(4) <= func(5);
+    or_and_in(5) <= ALUop(1);
+    or_and_2:      and_6to1 port map(or_and_in, or_and_out);
+    
+    -- sll
+    sll_and_0:     not_gate port map(func(0), sll_and_in(0));
+    sll_and_1:     not_gate port map(func(1), sll_and_in(1));
+    sll_and_2:     not_gate port map(func(2), sll_and_in(2));
+    sll_and_3:     not_gate port map(func(3), sll_and_in(3));
+    sll_and_4:     not_gate port map(func(5), sll_and_in(4));
+    sll_and_in(5) <= ALUop(1);
+    sll_and_6:     and_6to1 port map(sll_and_in(5 downto 0), sll_and_out);
+      
+    -- slt
+    slt_and_0:     not_gate port map(func(0), slt_and_in(0));
+    slt_and_1:     not_gate port map(func(2), slt_and_in(2));
+    slt_and_in(1) <= func(1);
+    slt_and_in(3) <= func(3);
+    slt_and_in(4) <= func(5);
+    slt_and_in(5) <= ALUop(1);
+    slt_and_2:     and_6to1 port map(slt_and_in(5 downto 0), slt_and_out);
+    
+    -- sltu
+    sltu_and_0:    not_gate port map(func(2), sltu_and_in(2));
+    sltu_and_in(0) <= func(0);
+    sltu_and_in(1) <= func(1);
+    sltu_and_in(3) <= func(3);
+    sltu_and_in(4) <= func(5);
+    sltu_and_in(5) <= ALUop(1);
+    sltu_and_1:    and_6to1 port map(sltu_and_in(5 downto 0), sltu_and_out);
+    
+    
+    --ALUctr
+    bit0_0:        or_gate port map(or_and_out, slt_and_out, wire(0));
+    bit0_1:        or_gate port map(wire(0), sltu_and_out, ALUctr(0));
+    
+    bit1_0:        or_gate port map(ADDop_and_out, SUBop_and_out, wire(1));
+    bit1_1:        or_gate port map(add_and_out, addu_and_out, wire(2));
+    bit1_2:        or_gate port map(sub_and_out, subu_and_out, wire(3)); 
+    bit1_3:        or_gate port map(slt_and_out, sltu_and_out, wire(4));
+    bit1_4:        or_gate port map(wire(1), wire(2), wire(5));
+    bit1_5:        or_gate port map(wire(3), wire(4), wire(6));   
+    bit1_6:        or_gate port map(wire(5), wire(6), ALUctr(1));   
+    
+    bit2_0:        or_gate port map(SUBop_and_out, sub_and_out, wire(7)); 
+    bit2_1:        or_gate port map(subu_and_out, slt_and_out, wire(8));
+    bit2_2:        or_gate port map(wire(7), wire(8), wire(9)); 
+    bit2_3:        or_gate port map(wire(9), sltu_and_out, ALUctr(2)); 
+    
+    bit3_0:        or_gate port map(sll_and_out, sltu_and_out, ALUctr(3)); 
+ 
+      
+end architecture;
+  
+  
+  
+  
+  
+
